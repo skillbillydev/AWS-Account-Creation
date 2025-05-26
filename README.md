@@ -1,8 +1,10 @@
 # AWS Account Creation
 
-Creating an account for AWS is a pretty quick and easy process. Just head on over to the [AWS Console](https://signin.aws.amazon.com/signup?request_type=register) and follow the prompts for account creation.
+Creating an account for AWS is a pretty quick and easy process. Just head on over to the [AWS Console](https://signin.aws.amazon.com/signup?request_type=register) and follow the prompts for account creation. Boom! You're done, right? Well, yes and no. You *do* have an account now. You **don't**, however, have a very *secure* account. Let's fix that.
 
-Once your account has been activated, you should set up [Multi-Factor Authentication](https://docs.aws.amazon.com/IAM/latest/UserGuide/enable-mfa-for-root.html) (MFA) as soon as possible for the root account. While this step *is* optional, it is **highly** recommended to ensure your account is secure.
+Once your account has been activated, you should set up [Multi-Factor Authentication](https://docs.aws.amazon.com/IAM/latest/UserGuide/enable-mfa-for-root.html) (MFA) as soon as possible for the root account.  While this step *is* optional, it is **highly** recommended to ensure your account is secure.
+
+*For a QRD (quick rundown), MFA is a security measure which requires a user to use multiple (multi) forms (factors) of identification to verify that they are who they say they are (authentication). Some common MFA factor pairings are a password and an auto generated pin (TOTP), a password and a key card, a key card and a rental scan, etc. This provides extra security to your account. Your password might get leaked in a data breach, but unless a user has access to your other factors, they will still not be able to access your account.*
 
 ## Setting Up MFA for Root
 
