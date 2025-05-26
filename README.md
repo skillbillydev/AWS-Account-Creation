@@ -1,4 +1,4 @@
-# AWS Account Creation
+# Secure AWS Account Creation
 
 Creating an account for AWS is a pretty quick and easy process. Just head on over to the [AWS Console](https://signin.aws.amazon.com/signup?request_type=register) and follow the prompts for account creation. Boom! You're done, right? Well, yes and no. You *do* have an account now. You **don't**, however, have a very *secure* account. Let's fix that.
 
